@@ -1,0 +1,63 @@
+ body {
+  background-color: #FF6A00;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family:sans-serif;
+  overflow: hidden;
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  /*border: 1px solid white;*/
+  color: white;
+}
+
+#clockholder{
+  position: absolute;
+  float: center;
+  top: 50%;
+  margin-top: -110px;
+  left: 50%;
+  margin-left: -370px;
+  width: 740px;
+  height: 260px;
+}
+
+.clock{
+  opacity:0.8;
+  /*border-bottom: 1px solid white;*/
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 740px;
+  height: 235px;
+  /*line-height: 235px;*/
+  text-align: center;
+}
+
+ .clock-btn, .hex-btn{
+  width: 366px;
+	height: 15px;
+  position:absolute;
+  margin:10px 2px 0px 2px;
+  cursor: pointer;
+	background: rgba(232, 232, 232, 0.7);
+  bottom: 0px;
+}
+
+#clockholder .clock-btn
+{
+	left: 0px;
+}
+
+#clockholder .hex-btn
+{
+	right:0px;
+}
+
+#clockholder .clock-btn:hover,
+#clockholder .hex-btn:hover
+{
+	background: rgba(232, 232, 232, 0.9);
+}
